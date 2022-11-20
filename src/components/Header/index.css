@@ -1,0 +1,46 @@
+.header-component{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 9vh;
+    border-bottom: 2px solid black;
+}
+
+.logo-container{
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.header-buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+}
+
+@media screen and (min-width:768px){
+    .header-buttons-container{
+        width: 30%;
+    }
+}
+
+.header-buttons{
+    font-size: 17px;
+    font-weight: 700;
+    padding: 8px 15px;
+    border-radius: 4px;
+    background-color: #3b82f6;
+    color:#ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
